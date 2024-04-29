@@ -6,6 +6,10 @@ Pac-Man is a classic arcade game brought to life in this project developed using
 
 ![Pac-Man Screenshot](Screenshot_2024-04-29_19_52_15.png)
 
+## Live Preview
+
+You can view a live preview of the app <a href="https://662fee10c594cd0fe0bf4d68--pac-man-game-purejs.netlify.app/" target="_blank">here</a>.
+
 ### Inbuilt JavaScript functions I have used: 
 * addEventListener()
 * getElementById()
