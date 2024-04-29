@@ -1,0 +1,74 @@
+body {
+    background-image: url('pacman-1920-x-1080-cir4krfy12vqn9ml.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(28, 20px);
+    grid-template-rows: repeat(28, 20px);
+    width: 560px;
+    height: 560px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #66BB6A;
+    border-radius: 50%; 
+}
+
+.wall {
+    background-color: #1976D2; 
+}
+
+.power-pellet {
+    background-color: purple;
+    border-radius: 50%;
+    border: 2px solid white; 
+}
+
+.ghost {
+    border-radius: 50%; 
+}
+
+.blinky {
+    background-color: #FF5252; 
+}
+
+.pinky {
+    background-color: #EC407A;
+}
+
+.inky {
+    background-color: #26C6DA;
+}
+
+.clyde {
+    background-color: #FFA726;
+}
+
+.pac-man {
+    background-color: #FFEB3B; 
+    border-radius: 50%; 
+    border: 2px solid #FFD600; 
+}
+
+.scared-ghost {
+    background-color: #7FFFD4; 
+}
+
+h3 {
+    text-align: center;
+    font-weight: bolder;
+    color: #FF5722;
+}
